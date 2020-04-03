@@ -1,0 +1,213 @@
+[
+
+    {
+        "ID":0,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":1,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":2,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":3,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":4,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":5,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":6,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":7,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":8,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":9,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":10,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":11,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":12,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":13,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":14,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":15,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":16,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"2020-04-03 18:09:38.861Z",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":17,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":18,
+        "ALIVE":1,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":19,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    },
+    {
+        "ID":20,
+        "ALIVE":0,
+        "EMAIL":"example@mail.ru",
+        "USERNAME":"example_randomov",
+        "PASSWORD":"Password123",
+        "CREATE_TIME":"2020-04-03 18:09:38.861Z",
+        "BAN_TIME":"-",
+        "PROXY":"localhost"
+    }
+]
