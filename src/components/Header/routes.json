@@ -1,0 +1,17 @@
+[
+    {
+      "label": "Main",
+      "name": "main",
+      "href": "/"
+    },
+    {
+      "label": "Second",
+      "name": "second",
+      "href": "/second"
+    },
+    {
+      "label": "Third",
+      "name": "third",
+      "href": "/third"
+    }
+]
