@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
+import Container from '@material-ui/core/Container'
 
 import MainContent from '../../components/MainContent'
 import Blocks from '../../components/Blocks'
@@ -14,8 +14,8 @@ const useStyles = makeStyles(theme => ({
   },
   someKeys: {
   },
-  mainContent: {
-
+  grid: {
+    padding: 0
   }
 }))
 
@@ -29,21 +29,33 @@ const Main = (props) => {
   return (
     <div className={classes.root}>
 
-      <Typography variant='h6' align='center'>MAIN PAGE</Typography>
-
-      <Grid container spacing={1}>
-        <Grid container item spacing={1}>
-          <Grid item>
-            <Blocks className={classes.blocks} />
+      <Grid
+        container
+        direction='row'
+        justify='space-around'
+        alignItems='center'
+        wrap='nowrap'
+      >
+        <Grid
+          container
+          item
+          direction='column'
+          justify='space-between'
+          alignItems='center'
+          xs
+        >
+          <Grid item xs>
+            <div>ASD</div>
+            {/* <Blocks className={classes.blocks} /> */}
           </Grid>
 
-          <Grid item>
+          <Grid item xs>
             <SomeKeys className={classes.someKeys} />
           </Grid>
         </Grid>
 
-        <Grid item>
-          <MainContent className={classes.mainContent} data={props.data} />
+        <Grid item className={classes.grid} lg>
+          <MainContent data={props.data} />
         </Grid>
 
       </Grid>

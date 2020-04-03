@@ -1,0 +1,35 @@
+[
+    {
+        "name": "ID",
+        "field": "ID"
+    },
+    {
+        "name": "Состояние",
+        "field": "ALIVE"
+    },
+    {
+        "name": "E-mail",
+        "field": "EMAIL"
+    },
+    {
+        "name": "Имя пользователя",
+        "field": "USERNAME"
+    },
+    {
+        "name": "Пароль",
+        "field": "PASSWORD"
+    },
+    {
+        "name": "Время создания",
+        "field": "CREATE_TIME"
+    },
+    {
+        "name": "Время бана",
+        "field": "BAN_TIME"
+    },
+    {
+        "name": "Прокси",
+        "field": "PROXY"
+
+    }
+]
