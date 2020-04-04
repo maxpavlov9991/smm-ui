@@ -6,7 +6,7 @@ import Header from '../Header'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex'
+    minWidth: 700
   },
   content: {
     flexGrow: 1
@@ -18,12 +18,12 @@ const Layout = (props) => {
   const classes = useStyles()
 
   return (
-    <>
+    <div className={classes.root}>
       <CssBaseline />
       <Header />
       <div className={classes.toolbar} />
       {props.children}
-    </>
+    </div>
   )
 }
 
