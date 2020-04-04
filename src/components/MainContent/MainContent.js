@@ -12,11 +12,10 @@ import modules from './modules'
 
 const useStyles = makeStyles({
   root: {
-    width: '100%'
   },
   container: {
-    maxHeight: 600,
-    minWidth: 650
+    maxHeight: 850,
+    overflow: 'auto'
   }
 })
 
@@ -26,27 +25,29 @@ export default function MainContent ({ data }) {
   return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
-        <Table stickyHeader>
-          <TableHead>
-            <TableRow>
-              {modules.map((column) => (
-                <TableCell
-                  key={column.field} align='center'
-                >
-                  {column.name}
-                </TableCell>
-              ))}
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {data.map(row => (
-              <TableRow key={row.id}>
-                {modules.map(mod => <TableCell key={row.id + mod.field} align='center'>{row[mod.field]}</TableCell>
-                )}
+        <div>
+          <Table stickyHeader size='small'>
+            <TableHead>
+              <TableRow>
+                {modules.map((column) => (
+                  <TableCell
+                    key={column.field} align='center'
+                  >
+                    {column.name}
+                  </TableCell>
+                ))}
               </TableRow>
-            ))}
-          </TableBody>
-        </Table>
+            </TableHead>
+            <TableBody>
+              {data.map(row => (
+                <TableRow key={row.id} hover>
+                  {modules.map(mod => <TableCell key={row.id + mod.field} align='center'>{row[mod.field]}</TableCell>
+                  )}
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
       </TableContainer>
     </Paper>
   )

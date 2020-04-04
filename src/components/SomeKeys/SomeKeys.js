@@ -11,11 +11,10 @@ import data from './keys'
 
 const useStyles = makeStyles({
   root: {
-    width: '100%'
   },
   container: {
-    maxHeight: 150,
-    width: 500
+    maxHeight: 500,
+    overflow: 'auto'
   }
 })
 
@@ -23,19 +22,21 @@ export default function SomeKeys () {
   const classes = useStyles()
 
   return (
-    <Paper className={classes.root}>
-      <TableContainer className={classes.container}>
-        <Table>
-          <TableBody>
-            {data.map(row => (
-              <TableRow key={row.id}>
-                <TableCell align='left'>{row.key}</TableCell>
-                <TableCell align='right'>{row.value}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </Paper>
+    <div>
+      <Paper className={classes.root}>
+        <TableContainer className={classes.container}>
+          <Table size='small'>
+            <TableBody>
+              {data.map(row => (
+                <TableRow key={row.id} hover>
+                  <TableCell align='left'>{row.key}</TableCell>
+                  <TableCell align='right'>{row.value}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Paper>
+    </div>
   )
 }
